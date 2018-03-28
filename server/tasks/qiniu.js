@@ -41,8 +41,8 @@ const uploadToQiniu = async (url, key) => {
           movie.posterKey = posterData.key
         }
         console.log(movie)
-        const a = { video: 'http://vt1.doubanio.com/201803241711/e88031c15999d0b222f836f7474448f4/view/movie/M/301050466.mp4', doubanId: '4920528', cover: 'https://img3.doubanio.com/img/trailer/medium/1355408951.jpg?', poster: 'https://img3.doubanio.com/view/photo/l_ratio_poster/public/p1062824805.jpg', 
-        videoKey: 'r9P~SsISr35oB9h6I_o~T.png', coverKey: '0MkY9EwNDqMv90eCfzsCg.png', posterKey: 'JdinRMs4CE67IWxq3izlZ.png' };
+        // const a = { video: 'http://vt1.doubanio.com/201803241711/e88031c15999d0b222f836f7474448f4/view/movie/M/301050466.mp4', doubanId: '4920528', cover: 'https://img3.doubanio.com/img/trailer/medium/1355408951.jpg?', poster: 'https://img3.doubanio.com/view/photo/l_ratio_poster/public/p1062824805.jpg', 
+        // videoKey: 'r9P~SsISr35oB9h6I_o~T.png', coverKey: '0MkY9EwNDqMv90eCfzsCg.png', posterKey: 'JdinRMs4CE67IWxq3izlZ.png' };
       } catch (error) {
         console.log(error)
       }
